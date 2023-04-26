@@ -1,0 +1,55 @@
+.container{
+    width: 98vw;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: blue;
+    color: white;
+}
+.top-nav>.right>ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+
+}
+.main-content{
+    width: 100%;
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(5, auto);
+    color:white;
+   
+}
+.main-content>.card{
+    width: 200px;
+    height: 200px;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   gap: 2rem;
+    
+}
+.main-content>.card>.bottom{
+    display: flex;
+    gap: 2rem;
+}
+.main-content>.card>h3{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.main-content> .card:hover{
+    background-color: blue;
+    color: white;
+}

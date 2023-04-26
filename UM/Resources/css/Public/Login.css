@@ -1,0 +1,32 @@
+
+.content{
+    width:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 25px;
+    background-color: aquamarine;
+}
+.content>.input-field{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.content>.input-field>form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.content>.input-field>form>input{
+    width: 250px;
+    height: 30px;
+}

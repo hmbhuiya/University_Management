@@ -1,0 +1,29 @@
+.container{
+    width: 98vw;
+    background-color: aquamarine;
+    height:94vh;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: blue;
+    color: white;
+}
+.top-nav>.right>ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+
+}
+.fcontent{
+    width: 600px;
+    height: 300px;
+    background-color:cornflowerblue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

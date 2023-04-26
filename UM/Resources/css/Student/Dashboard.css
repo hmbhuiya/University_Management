@@ -1,0 +1,92 @@
+.container{
+    width: 98vw;
+    height: 90vh;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: blue;
+    color: white;
+}
+.top-nav>.right>ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+
+}
+.main-content{
+    display: flex;
+}
+.main-content>.left{
+    flex: 1;
+    overflow: auto;
+}
+.main-content>.right{
+    flex: 1;
+}
+.main-content>.left{
+    width: 100%;
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, auto);
+    color:white;
+    border-right: 1px solid lightgray;
+   
+}
+.main-content>.left>.card{
+    width: 200px;
+    height: 200px;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   gap: 2rem;
+    
+}
+.main-content>.left>.card>.bottom{
+    display: flex;
+    gap: 2rem;
+}
+.main-content>.left>.card>h3{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.main-content>.left> .card:hover{
+    background-color: blue;
+    color: white;
+}
+.main-content>.right{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  
+}
+.main-content>.right>input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+#add_stu{
+    width: 250px;
+    height: 30px;
+    background-color: aquamarine;
+    
+}
+#add_stu:hover{
+    cursor: pointer;
+}
