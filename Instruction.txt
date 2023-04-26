@@ -1,0 +1,4 @@
+==> You need to install XAMPP CONTROL PANEL first.
+==> c://xampp//htdocs___Inside htdoc folder you need to paste the project.
+==> Then open xampp start APACHE and MYSQL
+==> Open a browser, Try Using RUn the project using localhosl/University-Management
